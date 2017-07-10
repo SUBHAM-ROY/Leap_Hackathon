@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    
+<!--
+<script type="text/javascript" src="code.jquery.com/jquery-1.11.0.min.js"></script>
+-->
+<script src="login.js"></script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=10">
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="login.css"/> 
+</head>
+<body>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Get Started</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>TelePort-How to?</h2>
+    </div>
+    <div class="modal-body">
+      <p>
+      	1. Go to web.telegram.com on your mobile.
+      	<br><br>
+      	2. Sign up using your phone number.
+      	<br><br>
+      	3. Search for "@ReceiveFromEdge" and click on Receive From Edge
+      	<br><br>
+      	4. Send /start to begin chatting.
+      	<br><br>
+      	5. Wait for a 4 digit PIN and enter in your extension.
+      	<br><br>
+      	6. You are good to go. Start sending your things.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <h3>Click outside this window to exit</h3>
+    </div>
+  </div>
+
+</div>
+
+
+<form method="POST" id="form1">
+
+	<br><br><br>
+	Activation with PIN:<br>
+	<input id="val" type="text" name="pinno">	
+	<input id="button" type="button" name="button" value="Activate" onclick="myFun()"/>
+
+</form>
+
+</body>
+
+</html>
